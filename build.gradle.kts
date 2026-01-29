@@ -56,6 +56,7 @@ tasks.named<RatTask>("rat").configure {
   // Gradle
   excludes.add("**/build/**")
   excludes.add("gradle/wrapper/gradle-wrapper*")
+  excludes.add("gradle/wrapper/dv-client*")
   excludes.add(".gradle")
   excludes.add("**/kotlin-compiler*")
   excludes.add("**/build-logic/.kotlin/**")
